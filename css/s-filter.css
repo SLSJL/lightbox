@@ -1,0 +1,88 @@
+.s-filter {
+    border: 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 100%;
+
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: white;
+}
+
+.s-filter .date-section,
+.s-filter .region-section{
+    padding: 20px 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.s-filter .date-section{
+    background-color: cornflowerblue;
+}
+
+.s-filter .region-section{
+    background-color: gold;
+}
+
+.s-filter .date-section .date-section-start,
+.s-filter .date-section .date-section-end{
+    float: left;
+    padding: 0 20px;
+    width: 240px;
+    height: 100%;
+    overflow: auto;
+}
+
+.s-filter .date-section  p{
+    margin: 0;
+    padding: 10px 0;
+}
+
+.s-filter .date-section  #startStatic{
+    float: right;
+
+    border: 0;
+    height: 70px;
+
+    color: white;
+    font-family: "Microsoft YaHei";
+
+    background: none;
+    cursor: pointer;
+}
+
+.s-filter .date-section  #startStatic:hover{
+    text-decoration: underline;
+}
+
+.s-filter .date-section .date-section-start .start-time,
+.s-filter .date-section .date-section-end .end-time {
+    border: 0;
+    width: 99%;
+    height: 30px;
+
+    outline: none;
+}
+
+
+
+.s-filter .region-section .region-select,
+.s-filter .region-section .selected-container
+{
+    padding: 0 20px;
+    color: black;
+}
+
+.s-filter .region-section .region-select #region{
+    width: 240px;
+    height: 30px;
+}
+
+.s-filter .region-section .selected-container .selected{
+    float: left;
+    margin: 0 20px;
+    padding: 20px;
+
+    cursor: pointer;
+    text-decoration: underline;
+}
